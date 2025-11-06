@@ -16,7 +16,7 @@ const messages = [
         image: "https://i.pinimg.com/736x/90/73/a9/9073a9359bff531cd830ae7384752934.jpg"
     },
     {
-        text: "terakhir, kalo \"no\" yauda deh",
+        text: "terakhir, kalo \"no\" demi pangeran",
         image: "https://i.pinimg.com/736x/a6/43/f5/a643f5a40db387585b56bc767b66fddb.jpg"
     }
 ];
@@ -160,3 +160,4 @@ const handleButtonDodge = (e) => {
 noBtn.addEventListener('mouseover', handleButtonDodge);
 noBtn.addEventListener('touchstart', handleButtonDodge, { passive: false });
 noBtn.addEventListener('touchmove', (e) => e.preventDefault(), { passive: false });
+
